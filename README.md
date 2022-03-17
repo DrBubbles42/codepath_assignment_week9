@@ -47,7 +47,7 @@ Description:
 
 ## Red
 
-Vulnerability #1: User Enumeration
+Vulnerability #1: IDOR
 
 Description:
 This vulnerability was quite simple to figure out. Each site has a section to find a salesperson. When a person is selected the url for the person contains a query parameter of id, `https://104.198.208.81/red/public/salesperson.php?id=10`. All pages have users 1-9 so an id of 10 was attempted on all sites and only the red site responded with a page that was not yet intended to be viewed.
