@@ -39,12 +39,12 @@ The Green site is vonurable to the username enumeration because a different mess
 
 ![green1](https://user-images.githubusercontent.com/25064175/158919162-c8c927b3-8a95-413c-a856-e63fd62fb6b4.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: XSS
 
 Description:
+The second vulnerability for the Green site is XSS. This exploit was easy to test, a simple XSS(`<script>alert('Nick found the XSS!');</script>`) was loaded into the feadback section on each site and the green one executed the script while the others did not. 
 
-<img src="green-vuln2.gif">
-
+![green2](https://user-images.githubusercontent.com/25064175/159093780-f9f1c2d3-4122-4e75-b915-8bf1a468db78.gif)
 
 ## Red
 
