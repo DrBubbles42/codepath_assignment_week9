@@ -32,11 +32,12 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
 Description:
+The Green site is vonurable to the username enumeration because a different message is sent when a valid user tries to login compared to an invalid user tries to log in. an all sites except green, when a login fails with an invalid username the same message is sent as a failed login with a valid username. On the Green site when a valid username is used the message is in bold and when there is an invalid user the message is not in bold. this can be used with a list of usernames to find what usernames are valid in a dictionary attack.
 
-<img src="green-vuln1.gif">
+![green1](https://user-images.githubusercontent.com/25064175/158919162-c8c927b3-8a95-413c-a856-e63fd62fb6b4.gif)
 
 Vulnerability #2: __________________
 
