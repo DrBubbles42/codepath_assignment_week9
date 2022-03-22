@@ -1,7 +1,7 @@
 # codepath_assignment_week9
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -18,17 +18,16 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQLI
 
 Description:
+When querying for a speciffic user the HTTP query parameter id is used. On the backend of the blue site the paramater is not sanitized making it vonurable to injection.
 
-<img src="blue-vuln1.gif">
+![blue1](https://user-images.githubusercontent.com/25064175/159398634-0f94e04d-6ecc-47e8-b1c4-dc6c126fd667.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: NOT FOUND
 
 Description:
-
-<img src="blue-vuln2.gif">
 
 ## Green
 
@@ -55,15 +54,5 @@ This vulnerability was quite simple to figure out. Each site has a section to fi
 
 ![red1](https://user-images.githubusercontent.com/25064175/158894513-1c58c15b-3c41-4000-a1fb-a548f08f5b03.gif)
 
-Vulnerability #2: __________________
-
+Vulnerability #2: NOT FOUND
 Description:
-
-<img src="red-vuln2.gif">
-
-
-## Notes
-
-Describe any challenges encountered while doing the work
-
-
